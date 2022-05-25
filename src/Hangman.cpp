@@ -334,6 +334,6 @@ char getCharacter(const char* prompt , const char* error , const char validInput
 		}
 	}while(failure);
 
-	return input;
+	return 0;
 }
 
